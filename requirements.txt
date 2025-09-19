@@ -1,0 +1,54 @@
+fastapi==0.116.2
+uvicorn[standard]==0.35.0
+
+# HTTP Client
+httpx==0.28.1
+aiofiles==24.1.0
+
+# Data Processing
+pandas==2.3.2
+numpy==1.26.0
+
+# PDF Processing
+PyPDF2==3.0.1
+
+# Web Scraping
+beautifulsoup4==4.13.5
+selenium==4.35.0
+
+# SerpAPI for job scraping
+google-search-results==2.4.2
+
+# LangChain Ecosystem
+langchain==0.0.340
+langchain-community== 0.3.29
+langgraph==0.6.7
+langchain-openai==0.3.33
+
+# Vector Database
+faiss-cpu==1.12.0
+chromadb==1.1.0
+
+# Embeddings
+sentence-transformers==5.1.0
+
+# OpenAI compatible client for HuggingFace
+openai==1.108.0
+
+# Data Validation
+pydantic== 2.11.9
+
+# Testing
+pytest==8.4.2
+pytest-asyncio==1.2.0
+
+# Development
+black==25.9.0
+flake8==7.3.0
+mypy==1.18.2
+
+# Environment
+python-dotenv== 1.1.1
+
+# Logging
+structlog==25.4.0
