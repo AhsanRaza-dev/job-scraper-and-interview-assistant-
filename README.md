@@ -415,30 +415,5 @@ curl http://localhost:8000/api/v1/jobs/health
 
 # Check if APIs are configured
 curl http://localhost:8000/api/v1/jobs/health | jq '.serpapi_configured'
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/amazing-feature`)
-3. Add tests for new functionality
-4. Ensure all tests pass (`pytest`)
-5. Format code (`black src/ tests/`)
-6. Commit changes (`git commit -m 'Add amazing feature'`)
-7. Push to branch (`git push origin feature/amazing-feature`)
-8. Open Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🆘 Support
-
-- **Documentation**: Check `/docs` endpoint when running
-- **Issues**: Create GitHub issues for bugs/features
-- **API Help**: Use interactive docs at `/docs`
-- **Examples**: Check test files for usage patterns
-
----
 
 **Ready to use with HuggingFace DeepSeek-R1 and SerpAPI for job scraping and AI-powered interview generation!** 🚀
